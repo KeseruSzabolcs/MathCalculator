@@ -24,6 +24,28 @@ public class App
         System.out.println(calculate.result);
         calculate.divide(1.1,1.1);
         System.out.println(calculate.result);
+        System.out.println("-----------------");
+        calculate.add(1, 1.1);
+        System.out.println(calculate.result);
+        calculate.multiply(1,1.1);
+        System.out.println(calculate.result);
+        calculate.divide(1,1.1);
+        System.out.println(calculate.result);
+        System.out.println("-----------------");
+        calculate.add(1.1, 1);
+        System.out.println(calculate.result);
+        calculate.multiply(1.1,1);
+        System.out.println(calculate.result);
+        calculate.divide(1.1,1);
+        System.out.println(calculate.result);
+        System.out.println("-----------------");
+        calculate.add(1, 1);
+        System.out.println(calculate.result);
+        calculate.multiply(1,1);
+        System.out.println(calculate.result);
+        calculate.divide(1,1);
+        System.out.println(calculate.result);
+
 
     }
 }
